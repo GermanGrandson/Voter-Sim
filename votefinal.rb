@@ -60,7 +60,7 @@ end
 def start
   puts <<-Beg
 
-  
+
 ||   / /                                      //   ) )                       ____     ___      ___      ___
 ||  / /  ___    __  ___  ___      __         ((        ( )  _   __         //       //   ) ) //   ) ) //   ) )
 || / / //   ) )  / /   //___) ) //  ) )        \\     / / // ) )  ) )     //__     //   / / //   / / //   / /
@@ -495,7 +495,7 @@ winner_name = 0
    end
 end
 puts "the winner is #{winner_name} with #{winner_vote_count} votes"
-
+exit
 end
 
 
